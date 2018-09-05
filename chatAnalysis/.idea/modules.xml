@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+      <module fileurl="file://$PROJECT_DIR$/../TopicCluster-master/.idea/TopicCluster-master.iml" filepath="$PROJECT_DIR$/../TopicCluster-master/.idea/TopicCluster-master.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/chatAnalysis.iml" filepath="$PROJECT_DIR$/.idea/chatAnalysis.iml" />
     </modules>
   </component>
