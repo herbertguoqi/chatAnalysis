@@ -39,6 +39,8 @@ def cluster_kmeans(tfidf_train, word_dict, cluster_docs, cluster_keywords, num_c
     cluster_dict = {}
     order_centroids = km.cluster_centers_.argsort()[:, ::-1]
     temp = km.cluster_centers_
+    # 按离质心的距离排列聚类中心，由近到远
+
     doc = 1
     for cluster in clusters:
         f_docs.write(str(str(doc)) + ',' + str(cluster) + '\n')
